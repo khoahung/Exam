@@ -68,3 +68,11 @@ nutrition = {
 - Include a README with instructions to run your solution.
 - Docker is optional but encouraged.
 - Include basic tests if time allows.
+
+
+### **Run Application**
+- go to root directory of project
+- type ./run.sh and server start
+- going to this address to test 
+- http://127.0.0.1:8000/ingredient/5/substitutes/
+- http://127.0.0.1:8000/recipes/
