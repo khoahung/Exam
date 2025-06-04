@@ -1,0 +1,16 @@
+services:
+  web-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fastapi-app:latest
+    container_name: fastapi-app
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - shared-volume:/app
+
+volumes:
+  shared-volume:
+    external: true
