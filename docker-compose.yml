@@ -1,5 +1,5 @@
 services:
-  web-ui:
+  fastapi-app:
     build:
       context: .
       dockerfile: Dockerfile
